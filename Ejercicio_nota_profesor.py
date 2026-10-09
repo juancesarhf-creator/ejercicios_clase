@@ -2,6 +2,7 @@ num = float(input("nota: "))
 
 if num > 10 or num < 0:
     print("incorrecto")
+    sys.exit()
 
 if num < 5:
     print("insuficiente")
@@ -15,5 +16,5 @@ elif num < 7:
 elif num < 9:
     print("Notable")
 
-    else:
+else:
  print("Sobresaliente")
